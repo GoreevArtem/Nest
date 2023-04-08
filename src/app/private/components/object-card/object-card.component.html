@@ -1,0 +1,164 @@
+<div class="header">
+    <div class="header-left">
+        <div class="header-mid__title">
+            <b>Карточка объекта</b>
+        </div>
+        <div class="header-mid__title">
+            Реестр объектов
+        </div>
+    </div>
+    <div class="header-mid">
+        <div class="header-logo">
+            <img src="../../../../assets/houses.svg" alt="">
+        </div>
+        <div class="header-title">EstateTrack</div>
+
+    </div>
+    <div class="header-right">
+        <div class="header-mid__title">
+            Решения по объектам
+        </div>
+        <div class="header-mid__title">
+            Уведомления
+        </div>
+        <img src="../../../../assets/profile-icon.svg" alt="">
+        <div class="header-right__item-burger">
+            <input id="menu-toggle" type="checkbox" />
+            <label id="hamburger-menu" class='menu-button-container' for="menu-toggle">
+                <div class="menu-button__burger">
+                    <div class='menu-button'></div>
+                </div>
+                <nav id="sidebar-menu">
+                    <ul>
+                        <li>Карточка объектов</li>
+                        <li><a href="#">Решения по объектам</a></li>
+                        <li>Уведомления</li>
+                    </ul>
+                </nav>
+            </label>
+
+        </div>
+    </div>
+</div>
+<div class="stepper">
+    <div style="border: 3px solid #004987;" class="stepper-step">1</div>
+    <div class="stepper-line"></div>
+    <div [routerLink]="['../object-addons']" class="stepper-step">2</div>
+</div>
+<div class="works-tabs">
+    <div class="work-tab">
+        Загрузить данные из XML
+    </div>
+    <div class="work-tab">
+        Загрузить данные с помощью API
+    </div>
+</div>
+<div class="createproject">
+    <div class="createproject-title">
+        Карточка объекта
+        <div class="createproject-title-line"></div>
+    </div>
+    <div class="createproject-fields">
+        <div class="createproject-fields__pair">
+            <div class="createproject-field_pair">
+                <div class="createproject-field__title">
+                    Округ
+                </div>
+                <input placeholder="ЗАО" class="createproject-field__input" type="text">
+            </div>
+            <div class="createproject-field_pair">
+                <div class="createproject-field__title">
+                    Район
+                </div>
+                <input placeholder="Можайский" class="createproject-field__input" type="text">
+            </div>
+        </div>
+        <div class="createproject-fields__pair">
+            <div class="createproject-field_pair">
+                <div class="createproject-field__title">
+                    Адрес (адресный ориентиро ЗУ)
+                </div>
+                <input placeholder="г. Москва, ул. Беловежская, вл. 4" class="createproject-field__input" type="text">
+            </div>
+            <div class="createproject-field_pair">
+                <div class="createproject-field__title">
+                    Адрес объекта
+                </div>
+                <input placeholder="г. Москва, ул. Беловежская, вл. 4" class="createproject-field__input" type="text">
+            </div>
+        </div>
+        <div class="createproject-fields__pair">
+            <div class="createproject-field_pair">
+                <div class="createproject-field__title">
+                    Состояние объекта
+                </div>
+                <input placeholder="Обладает признаками СС" class="createproject-field__input" type="text">
+            </div>
+            <div class="createproject-field_pair">
+                <div class="createproject-field__title">
+                    Тип объекта
+                </div>
+                <input placeholder="Тип объекта" class="createproject-field__input" type="text">
+            </div>
+        </div>
+        <div class="createproject-fields__triple">
+            <div class="createproject-field__triple">
+                <div class="createproject-field__title">
+                    Площадь объекта
+                </div>
+                <input placeholder="5184.50" class="createproject-field__input" type="text">
+            </div>
+            <div class="createproject-field__triple">
+                <div class="createproject-field__title">
+                    Длина объекта
+                </div>
+                <input placeholder="5184.50" class="createproject-field__input" type="text">
+            </div>
+            <div class="createproject-field__triple">
+                <div class="createproject-field__title">
+                    Ед.измерения площади/длины
+                </div>
+                <input placeholder="кв. м" class="createproject-field__input" type="text">
+            </div>
+        </div>
+        <div class="createproject-fields__pair">
+            <div class="createproject-field_pair">
+                <div class="createproject-field__title">
+                    Собственник
+                </div>
+                <input placeholder="Собственник объекта" class="createproject-field__input" type="text">
+            </div>
+            <div class="createproject-field_pair">
+                <div class="createproject-field__title">
+                    Фактический пользователь
+                </div>
+                <input placeholder="Организация, используящая объект" class="createproject-field__input" type="text">
+            </div>
+        </div>
+        <div class="createproject-btn__filebuttons">
+            <div class="createproject-btn__filebutton">
+                <img src="../../../../assets/object-photo.svg" alt="">
+                <span>Добавить фото</span>
+            </div>
+            <div class="createproject-btn__filebutton">
+                <img src="../../../../assets/object-video.svg" alt="">
+                <span>Добавить видео</span>
+            </div>
+            <div class="createproject-btn__filebutton">
+                <img src="../../../../assets/object-map.svg" alt="">
+                <span>Добавить на карту</span>
+            </div>
+        </div>
+        <div class="createproject-btns">
+            <div class="createproject-btn">
+                <img src="../../../../assets/card-edit.svg" alt="">
+                <span>Добавить элемент на карточку</span>
+            </div>
+            <div class="createproject-btn">
+                <span>Сохранить</span>
+            </div>
+        </div>
+    </div>
+
+
+</div>
